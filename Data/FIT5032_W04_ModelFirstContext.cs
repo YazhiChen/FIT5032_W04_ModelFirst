@@ -20,5 +20,7 @@ namespace FIT5032_W04_ModelFirst.Data
         }
 
         public System.Data.Entity.DbSet<FIT5032_W04_ModelFirst.Models.Student> Students { get; set; }
+
+        public System.Data.Entity.DbSet<FIT5032_W04_ModelFirst.Models.Unit> Units { get; set; }
     }
 }
